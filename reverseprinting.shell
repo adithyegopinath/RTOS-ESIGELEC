@@ -1,0 +1,6 @@
+echo "Enter the array elements:"
+read -a arr
+echo "reversed array:"
+for (( i=${#arr[@]}-1; i>=0; i--)); do
+echo -n "${arr[i]}"
+done
